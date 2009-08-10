@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="file:/Users/Buzzy/NetBeansProjects/FXTweet/dist/" href="FXTweet.jnlp">
+    <information>
+        <title>FXTweet</title>
+        <vendor>Buzzy</vendor>
+        <homepage href=""/>
+        <description>FXTweet</description>
+        <offline-allowed/>
+        <shortcut>
+            <desktop/>
+        </shortcut>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.1/javafx-rt.jnlp"/>
+        <jar href="FXTweet.jar" main="true"/>
+    </resources>
+    <application-desc main-class="fxtweet.FXTweet">
+    </application-desc>
+</jnlp>
